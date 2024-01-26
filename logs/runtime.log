@@ -1,25 +1,22 @@
-2024-01-26 06:23:24 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-26 06:23:31 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2024-01-26 06:23:33 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
-2024-01-26 06:23:44 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/epic-action/epic-action/epic/user_data_dir/epic-games@gcwm99/ctx_cookie.json')}
-2024-01-26 06:23:45 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-01-26 06:23:45 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Infinifactory', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-26 06:23:45 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-26 06:23:54 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-01-26 06:23:56 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-01-26 06:24:01 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please find and click on tһe number 8 in tһe image below.'}
-2024-01-26 06:24:06 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-01-26 06:24:38 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-26 06:24:46 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-01-26 06:24:49 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-01-26 06:24:54 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please fіnd and click on the number 8 in the image below.'}
-2024-01-26 06:24:59 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-01-26 06:25:31 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-26 06:25:39 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
-2024-01-26 06:25:42 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
-2024-01-26 06:25:47 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please find and click on the number 8 in the image below.'}
-2024-01-26 06:25:52 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
-2024-01-26 06:26:23 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3632), thread 'MainThread' (140710791302016): - {}
+2024-01-27 06:25:00 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-27 06:25:09 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-27 06:25:09 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Infinifactory', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-27 06:25:14 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-27 06:25:23 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-01-27 06:25:25 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-01-27 06:25:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that is rotateԁ with respect to its neighbors'}
+2024-01-27 06:25:35 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-27 06:26:07 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-27 06:26:16 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-01-27 06:26:18 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-01-27 06:26:23 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that is rotated with respect to its neighbors'}
+2024-01-27 06:26:28 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-27 06:27:00 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-27 06:27:09 | INFO    | epic_games.agent:claim_weekly_games:326 | claim_weekly_games - {'action': 'move to webPurchaseContainer iframe'}
+2024-01-27 06:27:11 | INFO    | epic_games.agent:claim_weekly_games:328 | claim_weekly_games - {'action': 'click payment button'}
+2024-01-27 06:27:16 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on the object that is rotated with respect to its neighbors'}
+2024-01-27 06:27:21 | DEBUG    | epic_games.agent:insert_challenge:106 | task done - {'sattus': 'success'}
+2024-01-27 06:27:53 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3532), thread 'MainThread' (140528981674880): - {}
 Traceback (most recent call last):
   File "/home/runner/work/epic-action/epic-action/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
